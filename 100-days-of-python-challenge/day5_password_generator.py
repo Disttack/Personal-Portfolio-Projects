@@ -13,14 +13,8 @@ randnumbers = random.choices(numbers, k=usernumbers)
 randsymbols = random.choices(symbols, k=usersymbols)
 randletters = random.choices(letters, k=userletters)
 
-for number in range(len(randnumbers)):
-    totalnumbers = str(randnumbers[number])
-for symbol in range(len(randsymbols)):
-    totalsymbols = str(randsymbols[symbol]) 
-for letter in range(len(randletters)):
-    totalletters = str(randletters[letter])
-
-
-password = ''.join(totalsymbols) + ''.join(totalletters) + ''.join(totalnumbers)
+password = ''.join(randnumbers + randsymbols + randletters)
+passwordrandom = random.sample(password, len(password))
+password = ''.join(passwordrandom)
 
 print(password)
