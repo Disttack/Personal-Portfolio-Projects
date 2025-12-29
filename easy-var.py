@@ -1,6 +1,5 @@
 # A module for easy variable management.
 # It allows you to create, read, update, and delete variables easily.
-# It also supports different data types like strings, integers, lists, and dictionaries.
 # Adding into separate repository for easy reuse by whomever this concerns.
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
