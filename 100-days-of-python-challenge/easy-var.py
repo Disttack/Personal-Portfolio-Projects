@@ -4,13 +4,21 @@
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 letters = list(alphabet)
-symbols = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+', '[', ']', '{', '}', ';', ':', "'", '"', ',', '.', '<', '>', '/', '?', ' ']
-numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-phonetic_alphabet = { 'a': 'alpha', 'b': 'bravo', 'c': 'charlie', 'd': 'delta', 'e': 'echo',
-                 'f': 'foxtrot', 'g': 'golf', 'h': 'hotel', 'i': 'india', 'j': 'juliet', 'k': 'kilo',
-                 'l': 'lima', 'm': 'mike', 'n': 'november', 'o': 'oscar', 'p': 'papa', 'q': 'quebec', 'r': 'romeo',
-                 's': 'sierra', 't': 'tango', 'u': 'uniform', 'v': 'victor', 'w': 'whiskey', 'x': 'x-ray', 'y': 'yankee', 'z': 'zulu' }
-data_types = ['string', 'integer', 'float', 'list', 'dictionary', 'boolean']
+symbols = [
+    '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+', '[', ']', '{', '}', ';', ':', "'", '"', ',', '.', '<', '>', '/', 
+    '?', ' '
+]
+numbers = [
+    '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'
+]
+phonetic_alphabet = { 
+    'a': 'alpha', 'b': 'bravo', 'c': 'charlie', 'd': 'delta', 'e': 'echo', 'f': 'foxtrot', 'g': 'golf', 'h': 'hotel', 'i': 'india', 
+    'j': 'juliet', 'k': 'kilo', 'l': 'lima', 'm': 'mike', 'n': 'november', 'o': 'oscar', 'p': 'papa', 'q': 'quebec', 'r': 'romeo', 
+    's': 'sierra', 't': 'tango', 'u': 'uniform', 'v': 'victor', 'w': 'whiskey', 'x': 'x-ray', 'y': 'yankee', 'z': 'zulu'
+}
+data_types = [
+    'string', 'integer', 'float', 'list', 'dictionary', 'boolean'
+]
 
 # The lists below this line contain all words in the english language. It is very long.
 # Keep variables shorter than 100 lines above this line.
